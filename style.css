@@ -1,0 +1,227 @@
+* {
+    /* padding: 0; */
+    margin: 0;
+}
+#top-head {
+    background-color: #4F91CD;
+}
+.menu-bar {
+    display: flex;
+}
+.nav-elements li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'Jost', sans-serif;
+    border-right: 1px solid white;
+    padding: 0 10px;
+}
+.nav-elements ul {
+    display: flex;
+    list-style: none;
+    padding-top: 15px;
+}
+.uni-logo {
+    padding-left: 10%;
+}
+.uni-logo h1 {
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 60px;
+    letter-spacing: 2px;
+}
+.location {
+    color: #9AC7E7;
+    font-family: 'Jost', sans-serif;
+    font-size: 15px;
+    padding-left: 45px;
+}
+.main-btn {
+    padding-top: 20px;
+    padding-left: 15%;
+}
+.btn {
+    border: 1px solid #9AC7E7;
+    border-radius: 5px;
+    background: none;
+    padding: 10px 30px;
+    margin: 5px;
+}
+.main-btn a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+#about-page {
+    background-color: #043867;
+}
+.about-uni li a  {
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'Jost', sans-serif;
+    text-decoration: none;
+    padding: 0 50px;
+    border-right: 1px solid white;
+}
+.about-uni ul {
+    list-style: none;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10%;
+}
+.about-uni li:hover {
+    background-color: #002342;
+}
+
+#main-img img {
+    width: 75%;
+    padding: 0px 170px;
+}
+#box-wrap {
+    padding-left: 170px;
+}
+.box-1 {
+    line-height: 2em;
+    margin-top: 15px;
+}
+.box-2 {
+    background-color: lightgreen;
+    padding: 20px 20px;
+    width: 85%;
+    /* display: inline; */
+    display: flex;
+    /* justify-content: space-between; */
+    font-family: 'Jost', sans-serif;
+    color: white;
+    font-size: 18px;
+}
+.box-2 p {
+    padding-top: 10px;
+}
+#grey-boxes {
+    display: flex;
+    width: 78%;
+    height: 230px;
+    justify-content: space-between;
+    /* margin: 25px auto 40px auto; */
+    /* padding: 20px; */
+    margin: 20px 169px;
+    /* font-family: 'Tajawal', sans-serif; */
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+}
+.box {
+    background-color: #E7ECF0;
+    width: 28%;
+    /* padding-top: 10px; */
+    padding: 15px 20px;
+}
+#grey-boxes p {
+    padding-top: 10px;
+}
+#grey-boxes h1 {
+    color: #428BCA;
+}
+#color-boxes {
+    display: flex;
+    width: 80%;
+    height: 230px;
+    justify-content: space-between;
+    /* margin: 25px auto 40px auto; */
+    /* padding: 20px; */
+    margin: 20px 169px;
+    /* font-family: 'Tajawal', sans-serif; */
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+}
+.clr-box1 {
+    background-color: #620E6E;
+    width: 27%;
+    color: white;
+    font-size: 30px;
+    padding: 15px 20px;
+    line-height: 2em;
+}
+.clr-box2 {
+    width: 27%;
+    color: white;
+    font-size: 30px;
+    padding: 15px 20px;
+    line-height: 2em;
+    background-color: #4385C1;
+    margin-right: -125px;
+}
+.date {
+    padding: 0 15px;
+    margin-top: 11px;
+    width: 30px;
+    height: 60px;
+    border: 1px solid black;
+    color: #7AA120;
+}
+.event1 {
+    display: flex;
+}
+.event2 {
+    display: flex;
+    /* padding-top: 10px; */
+}
+#upcoming-events {
+    padding-left: 15%;
+}
+.event-info {
+    margin: 5px;
+}
+#details ul {
+    padding-left: 119px;
+}
+#details ul li {
+    display: inline-block; 
+}
+#details li {
+    border: 1px solid #4F91CD;
+    background: none;
+    padding: 15px 30px;
+    margin: 35px;
+    width: 150px;
+    text-align: center;
+    font-family:  'Jost', sans-serif;
+    font-size: 17px;
+}
+#details li a {
+    text-decoration: none;
+    color: #4F91CD;
+}
+#ultimate-info {
+    display: flex;
+    background-color: #34383C;
+}
+#ultimate-info p {
+    color: #ffffff;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+}
+#ultimate-info ul li {
+    list-style: none;
+    color: #90A4AF;
+    font-size: 18px;
+    font-family:  'Jost', sans-serif;
+    line-height: 2em;
+}
+.academics, .helping-aid, .students, .about-simmons, .alumnae, .resources, .end-details {
+    padding-left: 35px;
+    padding-top: 30px;
+}
+#ultimate-info ul {
+    padding: 0;
+}
+.end-footer-academics {
+    text-align: center;
+    background-color: #34383c;
+    /* margin: 0; */
+    color: #ffffff;
+    font-size: 20px;
+    border-top: 1px solid white;
+    padding-bottom: 20px;
+}
